@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>NSIDC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:AU_DySno.001:213857794</GranuleUR>
+        <DbID>213857794</DbID>
+        <InsertTime>2021-05-31 07:06:39.412</InsertTime>
+        <LastUpdate>2021-05-31 07:06:39.412</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>AU_DySno</ShortName>
+            <VersionID>1</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>AMSR_U2_L3_DailySnow_B02_20210331.he5</DistributedFileName>
+                <FileSize>10459817</FileSize>
+                <ChecksumType>CKSUM</ChecksumType>
+                <Checksum>2888817005</Checksum>
+                <ChecksumOrigin>DPLIngst</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>9.97526</SizeMBECSDataGranule>
+            <LocalGranuleID>AMSR_U2_L3_DailySnow_B02_20210331.he5</LocalGranuleID>
+            <ProductionDateTime>2021-05-31 12:41:59</ProductionDateTime>
+        </ECSDataGranule>
+        <PGEVersionClass>
+            <PGEVersion>02</PGEVersion>
+        </PGEVersionClass>
+        <RangeDateTime>
+            <RangeEndingTime>00:46:14.297000</RangeEndingTime>
+            <RangeEndingDate>2021-04-01</RangeEndingDate>
+            <RangeBeginningTime>00:52:32.998000</RangeBeginningTime>
+            <RangeBeginningDate>2021-03-31</RangeBeginningDate>
+        </RangeDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <BoundingRectangle>
+                    <WestBoundingCoordinate>-180.0</WestBoundingCoordinate>
+                    <NorthBoundingCoordinate>89.24</NorthBoundingCoordinate>
+                    <EastBoundingCoordinate>180.0</EastBoundingCoordinate>
+                    <SouthBoundingCoordinate>-89.24</SouthBoundingCoordinate>
+                </BoundingRectangle>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <MeasuredParameter>
+            <MeasuredParameterContainer>
+                <ParameterName>Snow Water Equivalent</ParameterName>
+                <QAStats>
+                    <QAPercentMissingData>18</QAPercentMissingData>
+                </QAStats>
+                <QAFlags>
+                    <AutomaticQualityFlag>Passed</AutomaticQualityFlag>
+                    <AutomaticQualityFlagExplanation>Program Execution Completed</AutomaticQualityFlagExplanation>
+                    <OperationalQualityFlag>Not Investigated</OperationalQualityFlag>
+                    <OperationalQualityFlagExplanation>Currently not used</OperationalQualityFlagExplanation>
+                    <ScienceQualityFlag>Passed</ScienceQualityFlag>
+                    <ScienceQualityFlagExplanation>At least one normal retrieval</ScienceQualityFlagExplanation>
+                </QAFlags>
+            </MeasuredParameterContainer>
+        </MeasuredParameter>
+        <PSAs>
+            <PSA>
+                <PSAName>identifier_product_doi</PSAName>
+                <PSAValue>10.5067/8AE2ILXB5SM6</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>identifier_product_doi_authority</PSAName>
+                <PSAValue>http://dx.doi.org</PSAValue>
+            </PSA>
+        </PSAs>
+        <InputGranule>
+            <InputPointer>GW1AM2_202103310052_190D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103310231_206D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103310410_222D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103310549_005D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103310728_021D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103310907_037D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103311045_053D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103311224_069D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103311403_085D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103311542_101D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103311721_117D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103311900_133D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103312039_149D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103312217_165D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_202103312356_181D_L1SGRTBR_2220220.h5</InputPointer>
+        </InputGranule>
+        <PHProduct>
+            <PHGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:15:[NSIDC:DSSDSRV]:19:PH:PH.001:213857816</PHGranuleId>
+        </PHProduct>
+        <QAProduct>
+            <QAGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:15:[NSIDC:DSSDSRV]:19:QA:QA.001:213857815</QAGranuleId>
+        </QAProduct>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+
+
+

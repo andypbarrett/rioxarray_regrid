@@ -1,0 +1,14 @@
+ENVI
+description = {
+  File Imported into ENVI.}
+samples = 721
+lines   = 721
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 12
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {EASE-Grid North, 1.5000, 1.5000, -9024309.0000, 9024309.0000, 2.5067525000e+004, 2.5067525000e+004, , units=Meters}
+coordinate system string=PROJCS["NSIDC_EASE_Grid_North",GEOGCS["GCS_Sphere_International_1924_Authalic",DATUM["D_Sphere_International_1924_Authalic",SPHEROID["Sphere_International_1924_Authalic",6371228.0,0.0]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Azimuthal_Equal_Area"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Latitude_Of_Origin",90.0],UNIT["Meter",1.0]]
